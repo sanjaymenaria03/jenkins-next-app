@@ -33,7 +33,7 @@ const Testimonials=()=> {
   }
   return(
     <div className={styles.cover}>
-        <h1 className={styles.heading}>Happy Aasthians</h1>
+        <h1 className={styles.heading}>Happy Customers</h1>
         <div className={styles.reviewContainer}>
           {aasthianIndex.map(i=>(
             <ReviewTile key={i} aasthian={asthian[i]}/>
