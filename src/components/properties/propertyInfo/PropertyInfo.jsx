@@ -57,7 +57,7 @@ const PropertyInfo = () => {
         />
       </span>
       <div className={styles.location}>
-        <h2>Ramamurthy Nagar, Bangalore- Hebron Avenue</h2>
+        <h2>{propertyData.location}</h2>
         <p>
           <Image
             width="18"
@@ -65,7 +65,7 @@ const PropertyInfo = () => {
             src="https://img.icons8.com/metro/26/000000/marker.png"
             alt="marker"
           />
-          Ramamurthy Nagar, Bangalore
+          {propertyData.area}
         </p>
       </div>
       <div className={styles.images}>
@@ -110,8 +110,8 @@ const PropertyInfo = () => {
           </thead>
           <tbody>
             <tr>
-              <td>₹1,17,05,000</td>
-              <td>13.5%</td>
+              <td>₹{propertyData.funded}</td>
+              <td>{propertyData.returns}%</td>
               <td>₹5000</td>
               <td>1 year</td>
             </tr>
@@ -120,7 +120,7 @@ const PropertyInfo = () => {
         </div>
         <div className={styles.funding} >
             <p>FUNDING STATUS</p>
-            <h6>₹1,17,05,000 of ₹1,17,05,000 funded</h6>
+            <h6>₹{propertyData.funded} of ₹{propertyData.funded}</h6>
             <hr />
         </div>
         <div className={styles.propdetails} >
@@ -143,7 +143,7 @@ const PropertyInfo = () => {
                 <td>4.84%</td>
               </tr>
               <tr>
-                <td>AASTHY (price/sq.ft)</td>
+                <td>Grwoth (price/sq.ft)</td>
                 <td>₹3,300</td>
                 <td>₹4,103</td>
                 <td>24.35%</td>

@@ -212,7 +212,7 @@ const Navbar = () => {
                 <div className={styles.flexDiv}><section><p className={styles.support}>Please reach out to us with your concerns on any of these platforms</p>
                 <br />
                 <p className={styles.support}>Email :</p>
-                <p className={styles.support}>support@aasthy.com</p>
+                <p className={styles.support}>support@growth.com</p>
                 <br />
                 <p className={styles.support}>Call :</p>
                 <p className={styles.support}>+918045688004</p>

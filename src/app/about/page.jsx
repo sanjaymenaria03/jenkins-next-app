@@ -16,7 +16,7 @@ const About=()=>{
                     <h1 id={styles.highlight}>Transparent.</h1>
                     <h1>Data First.</h1>
                     <br />
-                    <p>Aasthy is democratizing real estate investments to bridge the multi-trillion dollar gap between high infrastructure demand and low retail investments due to lack of transparency and access. We do this with our deep experience in technology, data and investment structures.</p>
+                    <p>Growth is democratizing real estate investments to bridge the multi-trillion dollar gap between high infrastructure demand and low retail investments due to lack of transparency and access. We do this with our deep experience in technology, data and investment structures.</p>
                 </div>
                 <div><Image className={styles.image} width={400} height={400} src={FirstImage} alt="image"></Image></div>
             </div>
