@@ -27,7 +27,7 @@ const Body1res = () => {
                 
 
             <div className={styles.right} >
-                <Image src="https://aasthy.com/static/media/aasthy-app-props-desktop.c5e1c3c6.png" alt='mobile logo' width={100} height={200}  />
+            <Image src={GrowthImage} alt='mobile logo' width={100} height={200} />
             </div>
 
         </div>

@@ -1,6 +1,7 @@
 .body1{
     width: 100%;
-    background-image: url("https://aasthy.com/static/media/app-banner-background-desktop.5dd3c2c0.svg");
+    background-color: var(--primary);
+
     height: 200px;
     background-position: center;
     display: flex;
