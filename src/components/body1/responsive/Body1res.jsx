@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import styles from "./body1res.module.css";
-
+import GrowthImage from "public/growth-logo.svg"
 const Body1res = () => {
   return (
       <>
