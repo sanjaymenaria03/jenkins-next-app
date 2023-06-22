@@ -7,7 +7,7 @@ import Properties from '@/components/properties/Properties'
 import Body2 from '@/components/body2/Body2'
 import Testimonials from '@/components/testimonials/Testimonials'
 import Graph from '@/components/graph/Graph'
-
+import { metadata } from './layout'
 
 
 export default function Home() {
