@@ -166,22 +166,22 @@
     }
   
     .back {
-      top: 5%;
-      left: 2.5%;
+      top: 10px;
+      left: 10px;
     }
   
     .images {
-        padding-top: 20px;
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-      }
-      
-      .images img {
-        margin-right: 10px;
-        border-radius: 6px;
-        max-width: 100%;
-        height: auto;
-      }
-
+      padding-top: 20px;
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+    }
+  
+    .images img {
+      margin-right: 10px;
+      border-radius: 6px;
+      max-width: 100%;
+      height: auto;
+    }
   }
+  
