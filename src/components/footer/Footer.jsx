@@ -29,7 +29,7 @@ const Footer =()=>{
                         <span style={{paddingTop:"5px",fontWeight:"500"}}>  Grwoth </span>
                     </div>
                     
-                    <span style={{fontSize:"13px"}}>Growth Privet Limited</span>
+                    <span style={{fontSize:"13px"}}>Growth Private Limited</span>
                     <br />
                     <br />
                     <p style={{fontSize:"13px"}}>Find us on</p>
