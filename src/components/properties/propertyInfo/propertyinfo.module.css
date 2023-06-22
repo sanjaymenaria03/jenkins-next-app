@@ -1,166 +1,187 @@
-.property{
+.property {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     width: 100%;
     height: 100%;
-    padding: 32px 100px;
+    padding: 32px;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
-}
-.location h2{
+  }
+  
+  .location h2 {
     font-size: 16px;
     font-weight: 800;
-    /* margin-bottom: 1rem; */
-}
-.location p{
+  }
+  
+  .location p {
     font-size: 14px;
     font-weight: 400;
     color: #666;
-}
-.back{
+  }
+  
+  .back {
     position: absolute;
-    top: 13%;
-    left: 3.3%;
-}
-.images{
+    top: 27px;
+    left: 20px;
+  }
+  
+  .images {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
-    overflow: auto;
-}
-.images img{
+    overflow-x: auto;
+  }
+  
+  .images img {
     margin-right: 10px;
     border-radius: 6px;
-}
-.post p{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .post p {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     color: grey;
     font-size: 14px;
-}
-.post{
+  }
+  
+  .post {
     padding-top: 10px;
-}
-.post p span{
+  }
+  
+  .post p span {
     color: var(--primary);
-}
-.post p img{
+  }
+  
+  .post p img {
     padding: 0 10px;
-
-}
-.details th{
+  }
+  
+  .details th {
     padding-right: 10px;
     text-align: left;
     font-size: 13px;
     padding-top: 10px;
-}
-.details td{
+  }
+  
+  .details td {
     color: #666;
     font-size: 12px;
     padding-right: 10px;
     text-align: left;
-}
-
-.details{
+  }
+  
+  .details {
     padding-top: 10px;
-}
-.funding{
+  }
+  
+  .funding {
     padding-top: 20px;
-}
-.funding p{
+  }
+  
+  .funding p {
     font-size: 12px;
     color: #666;
-}
-.funding h6{
+  }
+  
+  .funding h6 {
     font-size: 14px;
     word-spacing: 10px;
     letter-spacing: 2px;
     padding: 5px 0px;
     font-weight: 600;
-}
-.funding hr{
+  }
+  
+  .funding hr {
     width: 35%;
     border-radius: 10px;
     margin-top: 5px;
     border: none;
     background-color: var(--primary);
     padding: 5px;
-}
-
-.propdetails{
+  }
+  
+  .propdetails {
     margin-top: 30px;
-    /* width: 50%; */
-
-}
-.propdetails h2{
+  }
+  
+  .propdetails h2 {
     font-size: 16px;
     font-weight: 800;
     margin-bottom: 1rem;
-}
-.proptable th{
+  }
+  
+  .proptable th {
     padding-right: 10px;
     text-align: left;
     font-size: 13px;
-    /* margin-top: 5px; */
     padding-top: 10px;
-}
-.proptable td{
+  }
+  
+  .proptable td {
     color: #666;
     font-size: 12px;
     padding-right: 10px;
-    /* margin-top: 5px; */
     text-align: left;
-}
-.builder{
+  }
+  
+  .builder {
     margin-top: 30px;
-    /* width: 50%; */
     display: flex;
-
-}
-.build{
+  }
+  
+  .build {
     width: 50%;
-}
-.benifit{  
+  }
+  
+  .benifit {
     width: 50%;
-    /* padding-left: 20px; */
-}
-.builder h2{
+  }
+  
+  .builder h2 {
     font-size: 21px;
     font-weight: 800;
     margin-bottom: 0.6rem;
-}
-.builder ol{
+  }
+  
+  .builder ol {
     list-style-type: disc;
     padding-left: 20px;
-}
-.builder li{
+  }
+  
+  .builder li {
     font-size: 13px;
     line-height: 18px;
     color: #666;
-}
-.benifit h2{
-    font-size: 21px;
-    font-weight: 800;
-    margin-bottom: 0.6rem;
-}
-
-@media (max-width: 900px){
-    .property{
-        padding: 62px 50px;
+  }
+  
+  @media (max-width: 900px) {
+    .property {
+      padding: 62px 30px;
     }
-    .back{
-        top: 10%;
-        left: 3.3%;
+  
+    .back {
+      top: 5%;
+      left: 2.5%;
     }
-    .images img{
-        width: 300px;
-    }
-
+  
+    .images {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+      }
       
-}
+      .images img {
+        margin-right: 10px;
+        border-radius: 6px;
+        max-width: 100%;
+        height: auto;
+      }
+
+  }
