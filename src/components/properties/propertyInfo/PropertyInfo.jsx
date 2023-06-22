@@ -4,7 +4,7 @@ import styles from "./propertyinfo.module.css";
 import { getDoc, doc } from 'firebase/firestore';
 import { database } from "@/app/firebase";
 import propertyContext from '@/context/propertyContext';
-import Logo from "public/logo.png";
+import Logo from "public/growth-logo.svg";
 import Cookies from 'js-cookie';
 import Image from 'next/image';
 import Loading from '@/app/loading';

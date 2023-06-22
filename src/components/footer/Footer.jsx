@@ -26,10 +26,10 @@ const Footer =()=>{
                     <div className={styles.flexDiv}>
                         <Image width={25}height={25}src={AstuteGiraffe} alt="" />
                         &emsp;
-                        <span style={{paddingTop:"5px",fontWeight:"500"}}>  Astute Giraffe </span>
+                        <span style={{paddingTop:"5px",fontWeight:"500"}}>  Grwoth </span>
                     </div>
                     
-                    <span style={{fontSize:"13px"}}>Astute Giraffe Private Limited</span>
+                    <span style={{fontSize:"13px"}}>Growth Privet Limited</span>
                     <br />
                     <br />
                     <p style={{fontSize:"13px"}}>Find us on</p>
@@ -70,7 +70,7 @@ const Footer =()=>{
                     <h3>Support</h3>
                     <br />
                     <span><Image width={15} height={15} src="https://aasthy.com/static/media/email-footer.3565b9fe.svg" alt="" />&emsp;
-                        support@aasthy.com
+                        support@growth.com
                     </span>
                     <br />
                     <br />
@@ -81,7 +81,7 @@ const Footer =()=>{
             </div>
             <hr />
             <div id={styles.section2} className={styles.flexDiv}>
-                <span><Image width={30} height={15} src={Copyright} alt="" />2022, Aasthy</span>
+                <span><Image width={30} height={15} src={Copyright} alt="" />2022, Growth</span>
 
                 <div>
                 <a href="">Privacy Policy</a>
@@ -96,13 +96,13 @@ const Footer =()=>{
                 <br />
                 <div className={styles.part2}>
                     <h4>Disclaimer</h4>
-                    <p>Aasthy.com is a website and a fractional investment platform operated by Astute Giraffe Private Limited (&quot;Aasthy&quot;) (Company Number: 202220900D). Astute Giraffe serves as a manager to asset holding entities in various countries, like Aasthy Enterprises LLP, for India. From time to time, the executives of Astute Giraffe Private Limited organize private companies (SPVs) under the asset holding entities registered in respective countries. Neither Astute Giraffe nor asset holding entity is a broker-dealer or an investment advisor. All securitisation is conducted under the Aasthy asset holding entities organized by Astute Giraffe.</p>
+                    {/* <p>Aasthy.com is a website and a fractional investment platform operated by Astute Giraffe Private Limited (&quot;Aasthy&quot;) (Company Number: 202220900D). Astute Giraffe serves as a manager to asset holding entities in various countries, like Aasthy Enterprises LLP, for India. From time to time, the executives of Astute Giraffe Private Limited organize private companies (SPVs) under the asset holding entities registered in respective countries. Neither Astute Giraffe nor asset holding entity is a broker-dealer or an investment advisor. All securitisation is conducted under the Aasthy asset holding entities organized by Astute Giraffe.</p> */}
                     <br />
 
-                    <p>You should speak with your financial advisor, accountant, and/or attorney when evaluating any offering of interests, securities or fractional ownership. Neither Astute Giraffe nor Aasthy asset holding entities makes any recommendations or provides advice about investments, and no communication, through this website or in any other medium, should be construed as a recommendation for any security offered on or off this investment platform. Nothing in this material should be construed as investment or tax advice, or a solicitation or offer, or a recommendation to buy or sell any securities. The Site and/or the App may make forward-looking statements. These forward-looking statements include, but are not limited to, statements concerning the company, property, risk factors, plans, and projections. You should not rely on these statements but should carefully evaluate the offering materials in assessing any investment opportunity, including the complete set of risk factors that are provided as part of the offering circular for your consideration. We urge you to review the applicable offering circular, available here.</p>
+                    {/* <p>You should speak with your financial advisor, accountant, and/or attorney when evaluating any offering of interests, securities or fractional ownership. Neither Astute Giraffe nor Aasthy asset holding entities makes any recommendations or provides advice about investments, and no communication, through this website or in any other medium, should be construed as a recommendation for any security offered on or off this investment platform. Nothing in this material should be construed as investment or tax advice, or a solicitation or offer, or a recommendation to buy or sell any securities. The Site and/or the App may make forward-looking statements. These forward-looking statements include, but are not limited to, statements concerning the company, property, risk factors, plans, and projections. You should not rely on these statements but should carefully evaluate the offering materials in assessing any investment opportunity, including the complete set of risk factors that are provided as part of the offering circular for your consideration. We urge you to review the applicable offering circular, available here.</p> */}
 
                     <br />
-                    <p>Neither Aasthy asset holding entities nor Astute Giraffe, nor any other person or entity assumes responsibility for the accuracy and completeness of forward-looking statements. Investments displayed on the Website are not bank deposits, are not insured, and are not guaranteed by Aasthy and/or Astute Giraffe, and may lose value. Investment opportunities posted on this website are &quot;private placements&quot; of securities that are not publicly traded, are subject to max holding period requirements, and are intended for investors who do not need a liquid investment.</p>
+                    {/* <p>Neither Aasthy asset holding entities nor Astute Giraffe, nor any other person or entity assumes responsibility for the accuracy and completeness of forward-looking statements. Investments displayed on the Website are not bank deposits, are not insured, and are not guaranteed by Aasthy and/or Astute Giraffe, and may lose value. Investment opportunities posted on this website are &quot;private placements&quot; of securities that are not publicly traded, are subject to max holding period requirements, and are intended for investors who do not need a liquid investment.</p> */}
                 </div>
             </div>
         </div>
