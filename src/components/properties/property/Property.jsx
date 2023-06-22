@@ -4,17 +4,26 @@ import Image from 'next/image';
 import Link from 'next/link';
 import propertyContext from '@/context/propertyContext';
 import Cookies from 'js-cookie';
-
+import signinContext from '@/context/signin/signinContext';
 
 const Property = (props) => {
+  const user = useContext(signinContext);
   const page = useContext(propertyContext);
-  const handleClick = () => {
-    localStorage.setItem('propertyID', props.id);
-    Cookies.set('propertyID', props.id);
-  }
+  // const handleClick = () => {
+  //   localStorage.setItem('propertyID', props.id);
+  //   Cookies.set('propertyID', props.id);
+  // }
   // console.log(page.id);
   return (
-    <Link href="/property" onClick={handleClick}>
+    <Link href="/property" onClick={(e)=>{
+      if(user.login == false){
+        e.preventDefault();
+        alert("please sign in first");
+      }
+      else{
+        Cookies.set('propertyID', props.id);
+      }
+    }}>
       <div className={styles.contain}>
 
    <div className={styles.container}>
