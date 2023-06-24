@@ -42,10 +42,10 @@ const Property = (props) => {
       <div className={styles.iteminvest}>
         <div className={styles.investleft}>
           
-            <span style={{fontFamily: "fantasy"}}>Investors <br />  <span style={{fontWeight: "bold"}} >{props.investors}</span></span>
+            <span >Investors <br />  <span style={{fontWeight: "bold"}} >{props.investors}</span></span>
         </div>
         <div className={styles.investright}>
-        <span style={{fontFamily: "fantasy"}} >Returns (CAGR)
+        <span >Returns (CAGR)
  <br /> <span style={{fontWeight: "bold"}} >{props.returns}%</span></span>
 
         </div>
